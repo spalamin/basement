@@ -1,4 +1,10 @@
 h1{
-    color: blue;
-    background-color: beige;
+    color: aqua;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    padding: 1px;
+}
+h1:hover{
+    color: white;
 }
