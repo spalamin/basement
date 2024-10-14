@@ -8,3 +8,6 @@ h1{
 h1:hover{
     color: white;
 }
+li:nth-child(2n+1){
+    background-color: tomato;
+}
