@@ -1,13 +1,18 @@
-h1{
-    color: aqua;
-    background-color: black;
-    text-align: center;
-    margin: auto;
-    padding: 1px;
+.flat-surface{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
 }
-h1:hover{
-    color: white;
+.flat-surface img{
+    width: 100%;
 }
-li:nth-child(2n+1){
+.flat-surface button{
     background-color: tomato;
+    color: bisque;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+
 }
