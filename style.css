@@ -1,4 +1,68 @@
+body{
+    font-family: "Kanit", sans-serif;
+    margin: 0%;
+}
 h1{
-    color: blue;
-    background-color: beige;
+   font-size: 50px; 
+}
+.name-hilight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg,lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: wheat;
+    font-weight: 700;
+}
+.drem-aria{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experince{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 60%;
+}
+.exprience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: calc(1);
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.single-experince{
+    background-color: white;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
