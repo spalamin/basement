@@ -32,3 +32,7 @@ section{
     color: wheat;
     font-weight: 700;
 }
+.drem-aria{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+}
